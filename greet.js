@@ -5,3 +5,7 @@ function greet(name){
   return `Hello, ${name}!`;
 }
 console.log(greet("Johnny"));
+
+function greet(name){
+  return `Hello, ${name} how are you doing today?`//your code here
+}
