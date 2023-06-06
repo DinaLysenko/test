@@ -8,3 +8,7 @@ function reverseWords(str) {
      arr.push(i);
     } return arr.reverse();
   };
+
+  function nameShuffler(str){
+    return str.split(' ').reverse().join(' ');//Shuffle It
+  }
