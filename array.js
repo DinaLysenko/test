@@ -54,3 +54,9 @@ myArray.shift();
 myArray.unshift(["Paul", 35]);
 
 const myList = [["Banana", 5], ["Bread", 3], ["Milk", 4], ["Cheese", 18], ["Eggs", 10]];
+
+function nextInLine(arr, item) {
+    arr.push(item);
+  const removed = arr.shift();
+  return removed;
+}
