@@ -12,3 +12,8 @@ function reverseWords(str) {
   function nameShuffler(str){
     return str.split(' ').reverse().join(' ');//Shuffle It
   }
+
+  function digitize(n) {
+    return Array.from(String(n)).reverse().map(i=>Number(i));
+  }
+  console.log(digitize(35231))
